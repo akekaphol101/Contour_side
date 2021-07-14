@@ -12,12 +12,10 @@
 using namespace cv;
 using namespace std;
 using namespace std::chrono;
-int largest_area = 0;
-int largest_contour_index = 0;
 
-int P_score = 660;						//Parameter for check spark and bubbles.
-int P_canny_forward = 97;				//Parameter for value forward in canny.
-int P_canny_backward = 194;				//Parameter for value backward in canny.
+int P_score = 660;								//Parameter for check spark and bubbles.
+int P_canny_forward = 97;						//Parameter for value forward in canny.
+int P_canny_backward = 194;						//Parameter for value backward in canny.
 
 
 void show_histogram(string const& name, Mat1b const& image)
@@ -164,6 +162,10 @@ int main(int argc, const char* argv[]) {
 	size_t count = fn.size(); //number of png files in images folder.
 	//Check number of images.
 	cout << "image in folder  " << count << endl;
+
+	 P_score = 660;								//Parameter for check spark and bubbles.
+	 P_canny_forward = 97;						//Parameter for value forward in canny.
+	 P_canny_backward = 194;					//Parameter for value backward in canny.
 
 	//Main LooB.
 	for (size_t i = 0; i < count; i++)
