@@ -1,0 +1,29 @@
+﻿  Contour_side.cpp
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(34,11): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(42,25): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(42,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(49,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(58,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(58,22): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(59,57): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(59,78): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(79,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(149,47): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\User\Desktop\New_mydev\Contour_side\Contour_side\Contour_side.cpp(149,44): warning C4244: 'argument': conversion from 'float' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+  Contour_side.vcxproj -> C:\Users\User\Desktop\New_mydev\Contour_side\x64\Debug\Contour_side.exe
